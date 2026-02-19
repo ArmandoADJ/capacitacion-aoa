@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Capacitación Interactiva Airside (AOA) – Conductores</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Saltar a contenido</a>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">✈︎</div>
+      <div>
+        <div class="brand-title">Capacitación Interactiva Airside (AOA)</div>
+        <div class="brand-subtitle">Conductores · Radio · Señalización · Luces · Seguridad</div>
+      </div>
+    </div>
+
+    <div class="top-actions">
+      <button id="btnTheme" class="btn ghost" type="button" title="Cambiar tema">Tema</button>
+      <button id="btnReset" class="btn ghost" type="button" title="Reiniciar progreso">Reiniciar</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" aria-label="Navegación">
+      <div class="progress">
+        <div class="progress-label">Progreso</div>
+        <div class="progressbar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="progressbar-fill"></div>
+        </div>
+        <div class="progress-meta"><span id="progressPct">0%</span> · <span id="progressText">0/9 secciones</span></div>
+      </div>
+
+      <ul class="navlist">
+        <li><a class="navlink" href="#intro" data-section="intro">1. Introducción</a></li>
+        <li><a class="navlink" href="#objetivo" data-section="objetivo">2. Objetivo y responsabilidades</a></li>
+        <li><a class="navlink" href="#radio" data-section="radio">3. Radio y fraseología</a></li>
+        <li><a class="navlink" href="#tfe" data-section="tfe">4. Caso Tenerife (Los Rodeos)</a></li>
+        <li><a class="navlink" href="#senalizacion" data-section="senalizacion">5. Señalizaciones clave</a></li>
+        <li><a class="navlink" href="#marcas" data-section="marcas">6. Marcas de pista</a></li>
+        <li><a class="navlink" href="#luces" data-section="luces">7. Luces del aeródromo</a></li>
+        <li><a class="navlink" href="#quiz" data-section="quiz">8. Quiz final</a></li>
+      </ul>
+
+      <div class="tip">
+        <div class="tip-title">Cómo usar</div>
+        <p>Avanza sección por sección. Marca cada sección como <strong>Completada</strong>. Al final, realiza el <strong>quiz</strong> y guarda tu resultado.</p>
+      </div>
+    </nav>
+
+    <main id="main" class="content">
+      <section id="intro" class="panel" data-section="intro">
+        <div class="panel-head">
+          <h1>Introducción</h1>
+          <button class="btn" data-complete="intro" type="button">Marcar como completada</button>
+        </div>
+        <p class="lead">Este módulo interactivo está diseñado para reforzar prácticas seguras de conducción en el <strong>Área de Operación Aeroportuaria (AOA)</strong>, enfocándose en comunicaciones, señalización, marcas y luces.</p>
+
+        <div class="cards">
+          <article class="card">
+            <h2>Regla de oro</h2>
+            <p><strong>Nunca</strong> ingresar a pista/área de maniobras sin autorización ATC.</p>
+          </article>
+          <article class="card">
+            <h2>Enfoque</h2>
+            <p>Prevención de incursiones, comunicaciones claras y respeto absoluto a señales y luces.</p>
+          </article>
+          <article class="card">
+            <h2>Interactividad</h2>
+            <p>Elementos “clic para revelar”, mini-simulaciones, y quiz final con calificación.</p>
+          </article>
+        </div>
+
+        <div class="callout">
+          <div class="callout-title">Actividad rápida (30 segundos)</div>
+          <p>Antes de continuar, responde mentalmente: <em>¿Cuáles son tus 3 riesgos principales al conducir cerca de una pista activa?</em></p>
+        </div>
+      </section>
+
+      <section id="objetivo" class="panel" data-section="objetivo">
+        <div class="panel-head">
+          <h1>Objetivo y responsabilidades</h1>
+          <button class="btn" data-complete="objetivo" type="button">Marcar como completada</button>
+        </div>
+
+        <div class="two-col">
+          <div>
+            <h2>Objetivo general</h2>
+            <p>Establecer un programa de capacitación estandarizado para conducir en el área de maniobra y movimiento, manteniendo el nivel más alto posible de seguridad en el entorno del aeropuerto.</p>
+
+            <details class="reveal">
+              <summary>Claves para lograrlo</summary>
+              <ul>
+                <li>Disciplina de comunicaciones (fraseología y colación).</li>
+                <li>Respeto a puntos de espera (hold bars) y límites.</li>
+                <li>Conducción defensiva: velocidad, atención y visibilidad.</li>
+                <li>Cero cruces sin autorización ATC.</li>
+              </ul>
+            </details>
+          </div>
+
+          <div>
+            <h2>Responsabilidad</h2>
+            <p>El Comité de Seguridad Operacional del Aeropuerto, a través del Director de Operaciones Airside, debe garantizar que el programa se implemente y se mantenga. El personal de Operaciones Airside recopila datos y analiza el programa.</p>
+
+            <details class="reveal">
+              <summary>Tu rol como conductor</summary>
+              <ul>
+                <li>Confirmar instrucciones con colación (“Copiado…”).</li>
+                <li>Mantenerse detrás de líneas sólidas en puntos de espera.</li>
+                <li>Reportar condiciones inseguras y casi incidentes.</li>
+                <li>Detenerse y pedir aclaración ante cualquier duda.</li>
+              </ul>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="radio" class="panel" data-section="radio">
+        <div class="panel-head">
+          <h1>Radio y fraseología</h1>
+          <button class="btn" data-complete="radio" type="button">Marcar como completada</button>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h2>Frecuencias (referencia)</h2>
+            <p>Consulta siempre los canales asignados en tu operación. Lista de ejemplo:</p>
+            <div class="table-wrap" role="region" aria-label="Tabla de frecuencias" tabindex="0">
+              <table>
+                <thead>
+                  <tr><th>Canal</th><th>Uso</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Frecuencia 5</td><td>Grupo Puntacana – Torre de Control, SSEI, Operaciones, UMA, Combustible</td></tr>
+                  <tr><td>Frecuencia 3</td><td>Grupo Puntacana – Servicios Generales CAE, Seguridad, Terminales, CESAC</td></tr>
+                  <tr><td>TWR 118.80</td><td>Aeronave–ATC (Torre de Control)</td></tr>
+                  <tr><td>Ground 121.90</td><td>Aeronave–ATC (Rodaje)</td></tr>
+                  <tr><td>Clearance 121.65</td><td>Aeronave–ATC</td></tr>
+                  <tr><td>Aproximación 119.75</td><td>Aeronave–ATC</td></tr>
+                  <tr><td>VIP 131.75</td><td>Aeronaves–Terminales VIP</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>Alfabeto aeronáutico (rápido)</h2>
+            <p>Haz clic para revelar una ayuda-memoria compacta.</p>
+            <button class="btn small" type="button" data-toggle="phonetic">Mostrar/Ocultar</button>
+            <div id="phonetic" class="hidden">
+              <div class="grid-phonetic" aria-label="Alfabeto fonético">
+                <div><strong>A</strong> Alfa</div><div><strong>B</strong> Bravo</div><div><strong>C</strong> Charlie</div><div><strong>D</strong> Delta</div>
+                <div><strong>E</strong> Echo</div><div><strong>F</strong> Foxtrot</div><div><strong>G</strong> Golf</div><div><strong>H</strong> Hotel</div>
+                <div><strong>I</strong> India</div><div><strong>J</strong> Juliett</div><div><strong>K</strong> Kilo</div><div><strong>L</strong> Lima</div>
+                <div><strong>M</strong> Mike</div><div><strong>N</strong> November</div><div><strong>O</strong> Oscar</div><div><strong>P</strong> Papa</div>
+                <div><strong>Q</strong> Quebec</div><div><strong>R</strong> Romeo</div><div><strong>S</strong> Sierra</div><div><strong>T</strong> Tango</div>
+                <div><strong>U</strong> Uniform</div><div><strong>V</strong> Victor</div><div><strong>W</strong> Whiskey</div><div><strong>X</strong> X-ray</div>
+                <div><strong>Y</strong> Yankee</div><div><strong>Z</strong> Zulu</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <h2>Fraseología y colación</h2>
+            <p>La fraseología estandarizada reduce ambigüedades. La <strong>colación</strong> es repetir lo recibido para confirmar que fue entendido correctamente.</p>
+
+            <div class="sim">
+              <div class="sim-title">Mini-simulación: ¿Cómo respondes?</div>
+              <p class="muted">Situación: estás en TWY A lado sur, solicitas proceder al punto de espera.</p>
+
+              <div class="choices" role="group" aria-label="Opciones de respuesta">
+                <button class="btn small" type="button" data-sim="a">“Ok, voy para allá.”</button>
+                <button class="btn small" type="button" data-sim="b">“Estoy en taxiway… solicito pasar.”</button>
+                <button class="btn small" type="button" data-sim="c">“Copiado, procederé.”</button>
+                <button class="btn small" type="button" data-sim="d">Colación completa</button>
+              </div>
+
+              <div id="simOut" class="sim-out" aria-live="polite"></div>
+            </div>
+          </article>
+        </div>
+
+        <details class="reveal">
+          <summary>Buenas prácticas (checklist)</summary>
+          <ul class="checklist">
+            <li><input type="checkbox" /> Identifico claramente mi posición (TWY, lado, punto).</li>
+            <li><input type="checkbox" /> Solicito autorización de forma breve y específica.</li>
+            <li><input type="checkbox" /> Repito instrucción clave con colación (ruta/punto de espera/pista).</li>
+            <li><input type="checkbox" /> Notifico cuando estoy establecido (“establecido en…”).</li>
+          </ul>
+        </details>
+      </section>
+
+      <section id="tfe" class="panel" data-section="tfe">
+        <div class="panel-head">
+          <h1>Caso Tenerife (Los Rodeos)</h1>
+          <button class="btn" data-complete="tfe" type="button">Marcar como completada</button>
+        </div>
+
+        <p class="lead">Este caso es un recordatorio histórico de cómo una combinación de factores (comunicación, visibilidad, procedimientos) puede terminar en una catástrofe.</p>
+
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <div class="tl-content">
+              <h2>Contexto</h2>
+              <p>Alta carga operativa y condiciones complejas (incluyendo visibilidad reducida) incrementan el riesgo.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <div class="tl-content">
+              <h2>Factor crítico</h2>
+              <p>Interpretaciones diferentes de mensajes y confirmaciones insuficientes pueden crear “falsas certezas”.</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot" aria-hidden="true"></div>
+            <div class="tl-content">
+              <h2>Lección práctica para conductores</h2>
+              <p>En superficie, una frase mal entendida puede equivaler a una incursión. Si hay duda: <strong>detenerse</strong> y <strong>pedir aclaración</strong>.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="callout danger">
+          <div class="callout-title">Principio operativo</div>
+          <p><strong>Sin autorización ATC no hay cruce.</strong> Y sin colación clara, la autorización no está confirmada.</p>
+        </div>
+      </section>
+
+      
+      <section id="senalizacion" class="panel" data-section="senalizacion">
+        <div class="panel-head">
+          <h1>Señalizaciones clave</h1>
+          <button class="btn" data-complete="senalizacion" type="button">Marcar como completada</button>
+        </div>
+
+        <p class="lead">Las señalizaciones y líneas en el área de movimiento indican límites, puntos de espera y reglas obligatorias.</p>
+
+        <div class="sig-grid" aria-label="Señalizaciones con ejemplos">
+          <article class="sig-card">
+            <img src="assets/hold-bar.jpeg" alt="Punto de espera (Hold Bar)">
+            <div class="sig-body">
+              <div class="sig-title">Punto de espera (Hold Bar)</div>
+              <div class="sig-sub">Detente detrás de líneas sólidas y espera autorización ATC.</div>
+            </div>
+          </article>
+
+          <article class="sig-card">
+            <img src="assets/movimiento-no-movimiento.jpeg" alt="Movimiento / No movimiento (Boundary Area)">
+            <div class="sig-body">
+              <div class="sig-title">Movimiento / No movimiento</div>
+              <div class="sig-sub">Delimita área controlada; autorización ATC requerida para cruzar hacia área de maniobra.</div>
+            </div>
+          </article>
+
+          <article class="sig-card">
+            <img src="assets/holding-position.jpeg" alt="Holding Position (Posición intermedia)">
+            <div class="sig-body">
+              <div class="sig-title">Posición intermedia (Holding Position)</div>
+              <div class="sig-sub">Control de flujo en TWY/plataforma: puede requerir detenerse y esperar instrucción.</div>
+            </div>
+          </article>
+
+          <article class="sig-card">
+            <img src="assets/instrucciones-obligatorias.jpeg" alt="Instrucciones obligatorias">
+            <div class="sig-body">
+              <div class="sig-title">Instrucciones obligatorias</div>
+              <div class="sig-sub">Señalización obligatoria asociada a guía y control del movimiento en superficie.</div>
+            </div>
+          </article>
+        </div>
+
+        <div class="callout">
+          <div class="callout-title">Mini-evaluación</div>
+          <p>Si ves una <strong>línea sólida</strong> antes de una pista: ¿dónde debes detenerte?</p>
+          <div class="choices">
+            <button class="btn small" type="button" data-mini="a">Encima de la línea</button>
+            <button class="btn small" type="button" data-mini="b">Detrás de la línea sólida</button>
+          </div>
+          <div id="miniOut" class="sim-out" aria-live="polite"></div>
+        </div>
+      </section>
+
+
+      <section id="marcas" class="panel" data-section="marcas">
+        <div class="panel-head">
+          <h1>Marcas de pista (visión rápida)</h1>
+          <button class="btn" data-complete="marcas" type="button">Marcar como completada</button>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h2>Designador de pista</h2>
+            <p>Número de dos cifras (y letra si hay paralelas). Ayuda a confirmar que estás en la pista correcta.</p>
+          </article>
+
+          <article class="card">
+            <h2>Eje de pista</h2>
+            <p>Líneas discontinuas blancas uniformemente espaciadas: referencia visual del centro.</p>
+          </article>
+
+          <article class="card">
+            <h2>Umbral</h2>
+            <p>Líneas simétricas respecto al eje. Indican inicio de pista utilizable.</p>
+          </article>
+
+          <article class="card">
+            <h2>Touch Down Zone</h2>
+            <p>Líneas en la zona de toma de contacto (pistas de precisión/no precisión).</p>
+          </article>
+
+          <article class="card">
+            <h2>Franja lateral</h2>
+            <p>Líneas a lo largo del borde de la pista que delimitan la superficie utilizable.</p>
+          </article>
+        </div>
+        <h2 style="margin-top:14px">Ejemplos visuales</h2>
+        <div class="img-grid" aria-label="Imágenes de marcas de pista">
+
+          <figure class="fig">
+            <img src="assets/eje-de-pista.jpeg" alt="Eje de pista (Centerline)">
+            <figcaption class="figcap"><strong>Eje de pista (Centerline)</strong><br/>Línea(s) blanca(s) discontinua(s) que marca(n) el centro de la pista para alineación.</figcaption>
+          </figure>
+
+          <figure class="fig">
+            <img src="assets/touch-down-zone.jpeg" alt="Touch Down Zone">
+            <figcaption class="figcap"><strong>Touch Down Zone</strong><br/>Marcas en la zona de toma de contacto; ayudan a la referencia visual durante la aproximación/aterrizaje.</figcaption>
+          </figure>
+
+          <figure class="fig">
+            <img src="assets/umbral.jpeg" alt="Umbral de pista (Threshold)">
+            <figcaption class="figcap"><strong>Umbral de pista (Threshold)</strong><br/>Marcas que indican el inicio de la pista utilizable para aterrizaje.</figcaption>
+          </figure>
+
+          <figure class="fig">
+            <img src="assets/franja-lateral.jpeg" alt="Franja lateral (Runway Side Stripe)">
+            <figcaption class="figcap"><strong>Franja lateral (Runway Side Stripe)</strong><br/>Delimita el borde de la superficie utilizable de la pista.</figcaption>
+          </figure>
+
+          <figure class="fig">
+            <img src="assets/designador-de-pista.jpeg" alt="Designador de pista">
+            <figcaption class="figcap"><strong>Designador de pista</strong><br/>Número (y letra si hay paralelas) que identifica la pista (ej. 08/26).</figcaption>
+          </figure>
+        </div>
+
+
+        <details class="reveal">
+          <summary>Tip operativo</summary>
+          <p>Como conductor, usa marcas para mantener orientación. Si tu posición no coincide con lo autorizado, detente y confirma por radio.</p>
+        </details>
+      </section>
+
+      <section id="luces" class="panel" data-section="luces">
+        <div class="panel-head">
+          <h1>Luces del aeródromo (modo nocturno)</h1>
+          <button class="btn" data-complete="luces" type="button">Marcar como completada</button>
+        </div>
+
+        <p class="lead">En baja visibilidad o de noche, las luces guían y alertan. En superficie, reconocer colores y función es esencial.</p>
+
+        <div class="nightbox" role="region" aria-label="Simulación de luces">
+          <div class="night-controls">
+            <button class="btn small" type="button" data-light="threshold">Umbral (verde)</button>
+            <button class="btn small" type="button" data-light="edge">Bordes de pista</button>
+            <button class="btn small" type="button" data-light="centerline">Centro de pista</button>
+            <button class="btn small ghost" type="button" id="btnAllOff">Apagar todo</button>
+          </div>
+
+          <svg id="runwaySvg" viewBox="0 0 900 260" class="runway" aria-label="Runway diagram">
+            <rect x="0" y="0" width="900" height="260" fill="transparent"></rect>
+            <!-- runway -->
+            <rect x="80" y="60" width="740" height="140" rx="14" class="rw-body"></rect>
+            <!-- centerline -->
+            <g id="gCenter" class="lights centerline off">
+              <!-- dashed centerline lights -->
+              <g>
+                <!-- 16 segments -->
+                <circle cx="120" cy="130" r="4"></circle><circle cx="165" cy="130" r="4"></circle>
+                <circle cx="210" cy="130" r="4"></circle><circle cx="255" cy="130" r="4"></circle>
+                <circle cx="300" cy="130" r="4"></circle><circle cx="345" cy="130" r="4"></circle>
+                <circle cx="390" cy="130" r="4"></circle><circle cx="435" cy="130" r="4"></circle>
+                <circle cx="480" cy="130" r="4"></circle><circle cx="525" cy="130" r="4"></circle>
+                <circle cx="570" cy="130" r="4"></circle><circle cx="615" cy="130" r="4"></circle>
+                <circle cx="660" cy="130" r="4"></circle><circle cx="705" cy="130" r="4"></circle>
+                <circle cx="750" cy="130" r="4"></circle><circle cx="795" cy="130" r="4"></circle>
+              </g>
+            </g>
+            <!-- threshold lights -->
+            <g id="gThreshold" class="lights threshold off">
+              <circle cx="90" cy="85" r="5"></circle><circle cx="90" cy="105" r="5"></circle><circle cx="90" cy="125" r="5"></circle>
+              <circle cx="90" cy="145" r="5"></circle><circle cx="90" cy="165" r="5"></circle><circle cx="90" cy="185" r="5"></circle>
+            </g>
+            <!-- edge lights -->
+            <g id="gEdge" class="lights edge off">
+              <!-- top edge -->
+              <g>
+                <circle cx="130" cy="70" r="3"></circle><circle cx="170" cy="70" r="3"></circle><circle cx="210" cy="70" r="3"></circle>
+                <circle cx="250" cy="70" r="3"></circle><circle cx="290" cy="70" r="3"></circle><circle cx="330" cy="70" r="3"></circle>
+                <circle cx="370" cy="70" r="3"></circle><circle cx="410" cy="70" r="3"></circle><circle cx="450" cy="70" r="3"></circle>
+                <circle cx="490" cy="70" r="3"></circle><circle cx="530" cy="70" r="3"></circle><circle cx="570" cy="70" r="3"></circle>
+                <circle cx="610" cy="70" r="3"></circle><circle cx="650" cy="70" r="3"></circle><circle cx="690" cy="70" r="3"></circle>
+                <circle cx="730" cy="70" r="3"></circle><circle cx="770" cy="70" r="3"></circle><circle cx="810" cy="70" r="3"></circle>
+              </g>
+              <!-- bottom edge -->
+              <g>
+                <circle cx="130" cy="190" r="3"></circle><circle cx="170" cy="190" r="3"></circle><circle cx="210" cy="190" r="3"></circle>
+                <circle cx="250" cy="190" r="3"></circle><circle cx="290" cy="190" r="3"></circle><circle cx="330" cy="190" r="3"></circle>
+                <circle cx="370" cy="190" r="3"></circle><circle cx="410" cy="190" r="3"></circle><circle cx="450" cy="190" r="3"></circle>
+                <circle cx="490" cy="190" r="3"></circle><circle cx="530" cy="190" r="3"></circle><circle cx="570" cy="190" r="3"></circle>
+                <circle cx="610" cy="190" r="3"></circle><circle cx="650" cy="190" r="3"></circle><circle cx="690" cy="190" r="3"></circle>
+                <circle cx="730" cy="190" r="3"></circle><circle cx="770" cy="190" r="3"></circle><circle cx="810" cy="190" r="3"></circle>
+              </g>
+            </g>
+            <text x="85" y="35" class="rw-label">Umbral</text>
+            <text x="740" y="235" class="rw-label">Fin de pista</text>
+          </svg>
+
+          <div class="legend">
+            <div><span class="dot threshold"></span> Umbral</div>
+            <div><span class="dot edge"></span> Bordes</div>
+            <div><span class="dot centerline"></span> Centro</div>
+          </div>
+
+          <div class="note">
+            <strong>Nota:</strong> Esta simulación es didáctica (no sustituye procedimientos locales). Usa siempre la información oficial del aeródromo.
+          </div>
+        </div>
+      </section>
+
+      
+      
+      <section id="normas" class="panel" data-section="normas">
+        <div class="panel-head">
+          <h1>Normas para el Control de Vehículos de Aeródromos</h1>
+          <button class="btn" data-complete="normas" type="button">Marcar como completada</button>
+        </div>
+
+        <p class="lead">Contenido organizado por categorías para lectura rápida. (Referencia normativa: CA-1400-04.)</p>
+
+        <details class="reveal" open>
+          <summary>Conducta y prohibiciones</summary>
+          <ul class="legal-list">
+            <li>Prohibido circular en zona restringida bajo efectos de alcohol o sustancias prohibidas.</li>
+            <li>Prohibido fumar o encender fuego en zona restringida, incluso dentro del vehículo.</li>
+          </ul>
+        </details>
+
+        <details class="reveal">
+          <summary>Vías de servicio y velocidad</summary>
+          <ul class="legal-list">
+            <li>Utilizar siempre vías de servicio establecidas de acuerdo a la señalización.</li>
+            <li>Velocidad máxima en área de movimiento: <strong>20 km/h</strong>.</li>
+          </ul>
+        </details>
+
+        <details class="reveal">
+          <summary>Luces anticolisión y prioridades</summary>
+          <ul class="legal-list">
+            <li>Dar preferencia a un vehículo cuando tenga encendidas luces anticolisión.</li>
+            <li>Vehículos de seguridad y emergencia: luces anticolisión rojas.</li>
+            <li>Extremar la precaución cerca de vehículos con luces anticolisión encendidas.</li>
+            <li>Todos los vehículos deben ceder el paso a las aeronaves (tengan o no luces anticolisión).</li>
+            <li><strong>Prioridad absoluta:</strong> vehículos de emergencia atendiendo aeronave en peligro.</li>
+          </ul>
+        </details>
+
+        <details class="reveal">
+          <summary>Movimiento alrededor de aeronaves y distancias mínimas</summary>
+          <ul class="legal-list">
+            <li>Elementos de altura variable (ej. escaleras) deben circular en posición más baja.</li>
+            <li>Delante de aeronaves paradas con motores reactores en marcha: mantener mínimo <strong>8.5 m</strong> (puede variar por tipo/operador).</li>
+            <li>Detrás de aeronaves paradas con motores en marcha: <strong>50 m</strong> (convencionales) o <strong>75 m</strong> (fuselaje ancho).</li>
+            <li>Detrás de aeronaves en movimiento: mínimo <strong>75 m</strong> (convencionales) / <strong>125 m</strong> (fuselaje ancho con 2 motores) / <strong>150 m</strong> (fuselaje ancho con más de 2 motores).</li>
+            <li>Prohibido cruzar por delante de una aeronave en movimiento a menos de <strong>200 m</strong>.</li>
+            <li>Prohibido cruzar por detrás de una aeronave en retroceso a menos de <strong>200 m</strong>.</li>
+            <li>Si debes circular alrededor de una aeronave, hazlo de modo que el lado del conductor quede más cerca de la aeronave.</li>
+          </ul>
+        </details>
+
+        <details class="reveal">
+          <summary>Plataforma, abastecimiento y maniobras</summary>
+          <ul class="legal-list">
+            <li>Ningún vehículo podrá entrar o permanecer en posiciones de estacionamiento de aeronaves, salvo para prestar servicio.</li>
+            <li>Marcha atrás/retroceso solo si es indispensable y sin invadir zonas de seguridad ni crear obstáculos.</li>
+            <li>Ningún vehículo debe obstruir la salida de camiones cisternas ni unidades dispensadoras.</li>
+            <li>Apoyos hidráulicos solo después de asegurarse que la zona está despejada.</li>
+          </ul>
+        </details>
+      </section>
+
+
+
+      <section id="quiz" class="panel" data-section="quiz">
+        <div class="panel-head">
+          <h1>Quiz final</h1>
+          <button class="btn" data-complete="quiz" type="button">Marcar como completada</button>
+        </div>
+
+        <p class="lead">Responde todas las preguntas. Al finalizar verás tu puntaje y un resumen de áreas a reforzar.</p>
+
+        <form id="quizForm" class="quiz" novalidate>
+          <!-- questions injected by JS -->
+        </form>
+
+        <div class="quiz-actions">
+          <button id="btnGrade" class="btn" type="button">Calificar</button>
+          <button id="btnSave" class="btn ghost" type="button">Guardar resultado</button>
+        </div>
+
+        <div id="quizResult" class="result" aria-live="polite"></div>
+
+        <details class="reveal">
+          <summary>¿Qué se guarda?</summary>
+          <p>Se guarda en tu navegador (localStorage): progreso, tema y el último resultado del quiz. No se envía a internet.</p>
+        </details>
+      </section>
+
+      <footer class="footer">
+        <div>© Módulo de capacitación interactiva (plantilla). Adaptable a SOPs locales.</div>
+        <div class="muted">Última actualización: <span id="buildDate"></span></div>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Detalle">
+    <div class="modal-card">
+      <div class="modal-head">
+        <div id="modalTitle" class="modal-title">Título</div>
+        <button class="btn ghost" id="modalClose" type="button" aria-label="Cerrar">Cerrar</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
